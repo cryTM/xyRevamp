@@ -1,1 +1,70 @@
-/* Copyright (C) 2019 Natsu - All Rights Reserved */
+<!-- Copyright (C) 2019 Natsu - All Rights Reserved -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Mainpage</title>
+  <link rel="stylesheet" href="css-main.css">
+</head>
+
+<body>
+  <div class="bg-image">
+    <div class="txt">
+      <h1>Pretend You're <dfn title="Xyzzy is an Artificial Unintelligence bot. You'll be making more sense than him in this game.">
+          Xyzzy</dfn></h1>
+    </div>
+  </div>
+
+  <div class="parallax"></div>
+
+    <article id="main">
+      <section style="padding-bottom: 20px">
+        <h3>A <a href=https://cardsagainsthumanity.com>Cards Against Humanity</a> clone.</h3>
+
+        <hr>
+        
+        <p>This webapp is still in development. There will be bugs, but hopefully they won't affect gameplay very much.
+
+          If this is your first time playing, you may wish to read <a href=https://pxy-2.pretendyoure.xyz/zy/index.jsp>the changelog and list of known issues</a>.
+          
+          Your computer's IP address will always be logged when you load the game client. It is not tied in any way to your username, except possibly if a server error occurs. Gameplay results are logged permanently, but without information identifying you.
+          
+          Most recent update: 3 September 2018:</p>
+
+          <ul style="list-style-type:disk">
+            <li>All chat and fill-in-the-blank cards have been disabled. If you're still out of the loop, 
+              <a href=https://gist.githubusercontent.com/ajanata/07ededdb584f7bb77a8c7191d3a4bbcc/raw/e76faacc19c2bb598a1a8fd94b9ebcb29c5502e0>here's why</a>.
+            </li>
+          </ul>
+
+          <div id="nickbox" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+              <input type="text" id="nickname" value="" maxlength="30" role="textbox" aria-label="Enter your nickname." data-lpignore="true">
+              <label for="idcode">
+                  <dfn title="Only available via HTTPS. Provide a secret identification code to positively identify yourself in the chat.">
+                      Optional identification code:</dfn>
+              </label>
+
+              <input type="password" id="idcode" value="" maxlength="100" aria-label="Optionally enter an identification code.">
+              <a href="https://github.com/ajanata/PretendYoureXyzzy/wiki/Identification-Codes">(Help)</a>
+              <input type="button" id="nicknameconfirm" value="Set">
+              <span id="nickbox_error" class="error"></span>
+          </div>
+
+          <p><a href=https://pyx-2.pretendyoure.xyz/zy/privacy.html><b>Hey, this is important: </b> Read the privacy page for details about what gameplay information is collected and how it's shared.</a></p>
+          <p>Pretend You're Xyzzy is a Cards Against Humanity clone, which is available 
+            at <a href=https://cardsagainsthumanity.com>cardsagainsthumanity.com</a>, where you can buy it or download and print it 
+            out yourself. It is distributed under a <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>Creative Commons - Attribution - 
+            Noncommercial - Share Alike license</a>. This web version is in no way endorsed 
+            or sponsored by cardsagainsthumanity.com. You may download the source code to
+            this version from <a href=https://github.com/ajanata/PretendYoureXyzzy>GitHub</a>. For full license information, including information
+            about included libraries, see the <a href=https://pyx-2.pretendyoure.xyz/zy/license.html>full license information</a>.</p>
+      </section>
+
+      
+  </article>
+</body>
+
+</html>
