@@ -35,6 +35,7 @@ IN CASE OF TROUBLE
 
 ```
 * you have trouble with any of the steps listed above
+* the JSON server isn't running/working
 ```
 
 Feel free to suggest changes, this is just a small project
